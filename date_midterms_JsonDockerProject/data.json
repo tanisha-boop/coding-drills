@@ -1,0 +1,77 @@
+{
+  "company": {
+    "name": "NovaTech Solutions",
+    "industry": "Software Development",
+    "location": "Singapore",
+    "employees": 42,
+    "activeProjects": 8,
+    "website": "www.novatech.com"
+  },
+
+  "departments": [
+    "Backend",
+    "Frontend",
+    "UI/UX",
+    "QA",
+    "DevOps"
+  ],
+
+  "employees": [
+    {
+      "id": 1,
+      "name": "Tanisha Jalaf",
+      "position": "Backend Developer",
+      "department": "Backend",
+      "experience": "2 Years",
+      "skills": [
+        "Python",
+        "Django",
+        "Docker",
+        "SQL"
+      ]
+    },
+
+    {
+      "id": 2,
+      "name": "James Carter",
+      "position": "Frontend Developer",
+      "department": "Frontend",
+      "experience": "3 Years",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React"
+      ]
+    },
+
+    {
+      "id": 3,
+      "name": "Sophia Lee",
+      "position": "DevOps Engineer",
+      "department": "DevOps",
+      "experience": "4 Years",
+      "skills": [
+        "Docker",
+        "Linux",
+        "AWS",
+        "Git"
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "TaskFlow SaaS",
+      "status": "In Progress"
+    },
+    {
+      "name": "Inventory Management",
+      "status": "Completed"
+    },
+    {
+      "name": "AI Recruitment Portal",
+      "status": "Planning"
+    }
+  ]
+}
