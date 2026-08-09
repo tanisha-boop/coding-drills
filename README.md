@@ -1,8 +1,8 @@
 # Coding Drills
 
-A structured programming repository documenting my progression across systems programming, JavaScript/Node.js development, and Python application development.
+A structured programming repository documenting my progression across C programming, JavaScript/Node.js development, and Python application development.
 
-The repository is organized by language-specific Git branches, with each exercise isolated into its own project directory to maintain clear version history, reproducibility, and separation of concerns.
+The repository is organized by language-specific Git branches, with individual exercises and projects maintained in dedicated directories for clear organization, reproducibility, and maintainability.
 
 ## Repository Overview
 
@@ -10,17 +10,24 @@ The repository is organized by language-specific Git branches, with each exercis
 |---|---|---|
 | `main` | C programming and profile application | C, Standard Library |
 | `javascript` | JavaScript, Node.js, backend, and containerized applications | JavaScript, Node.js, Express, JSON, Docker |
-| `python` | Python programming and application logic | Python |
+| `python` | Python programming and application development | Python |
 
-## Branches
+---
 
-### `main` — C Programming
+## `main` — C Programming
 
 Contains my profile programming activity implemented in C.
 
-**Technologies and concepts:**
+### Project
+
+**Get To Know Me — Profile Program**
+
+A console-based C application that demonstrates foundational programming concepts through a structured personal profile program.
+
+### Technologies & Concepts
 
 - C
+- Standard Library
 - Functions
 - Character arrays
 - String manipulation
@@ -29,27 +36,23 @@ Contains my profile programming activity implemented in C.
 - Standard I/O
 - Modular program structure
 
-**Project:**
-
-- Get To Know Me — Profile Program
-
 ---
 
-### `javascript` — JavaScript & Node.js
+## `javascript` — JavaScript & Node.js
 
-Contains JavaScript coding drills and Node.js projects covering frontend logic, backend development, APIs, file processing, streams, and containerization.
+Contains JavaScript coding exercises and Node.js projects progressing from programming fundamentals to backend development, HTTP services, file processing, APIs, and containerization.
 
-**Selected projects:**
+### Selected Projects
 
-- Filter Safe Deliveries
-- Real-Life Condition
-- Node.js Core Modules Demo
-- Node.js HTTP Server
-- Node.js Streams
-- JSON Docker Project
-- Express JSON Database
+- **Filter Safe Deliveries** — Array filtering and transformation
+- **Real-Life Condition** — Conditional logic and boolean expressions
+- **Node.js Core Modules Demo** — File-system operations, paths, errors, and asynchronous programming
+- **Node.js HTTP Server** — HTTP request handling and API responses
+- **Node.js Streams** — Stream-based file processing and transformations
+- **JSON Docker Project** — JSON-driven frontend application and containerization
+- **Express JSON Database** — Express backend using JSON as a lightweight data store
 
-**Technologies:**
+### Technologies
 
 - JavaScript
 - Node.js
@@ -61,30 +64,31 @@ Contains JavaScript coding drills and Node.js projects covering frontend logic, 
 - Git
 - GitHub
 
-**Engineering concepts:**
+### Engineering Concepts
 
 - Functional programming patterns
 - HTTP request handling
-- REST-style APIs
+- API development
 - File-system operations
 - Asynchronous programming
 - Stream processing
 - Error handling
 - Backend/frontend communication
+- Data serialization
 - Containerization
 
 ---
 
-### `python` — Python Development
+## `python` — Python Development
 
-Contains Python programming exercises focused on data structures, application logic, record management, and separation between data and program logic.
+Contains Python programming exercises focused on data structures, application logic, record management, and separation of data from program logic.
 
-**Projects:**
+### Projects
 
-- Barangay Visitor Log
-- Library Book Borrowing System
+- **Barangay Visitor Log**
+- **Library Book Borrowing System**
 
-**Technologies and concepts:**
+### Technologies & Concepts
 
 - Python
 - Lists and dictionaries
@@ -93,7 +97,9 @@ Contains Python programming exercises focused on data structures, application lo
 - Input handling
 - Data modeling
 - Program logic
-- Separation of data and logic
+- Separation of data and application logic
+
+---
 
 ## Repository Structure
 
@@ -121,30 +127,38 @@ coding-drills/
 
 Development Practices
 
-This repository is maintained using Git and GitHub with separate branches for each programming language.
+This repository uses Git and GitHub to maintain separate development branches for each programming language.
 
-Projects are organized into dedicated directories to make individual exercises easy to locate, test, review, and extend.
+Projects are organized into dedicated directories so that individual exercises can be located, reviewed, tested, and extended independently.
 
-Where applicable, projects include their own documentation and environment-specific configuration so that the implementation can be reproduced independently.
+Where applicable, projects include project-specific documentation, dependencies, and environment configuration to support reproducible execution.
 
-Purpose
+Engineering Focus
 
-The goal of this repository is to document practical programming experience through progressively more complex exercises and projects.
-
-It serves as a working record of my development across:
+The projects in this repository represent progressive practice across:
 
 Programming fundamentals
 Data structures and application logic
 Backend development
 API development
 File and stream processing
+Error handling
 Containerization
 Version control
 Software project organization
+
+The emphasis is on building working implementations while developing an understanding of the underlying engineering concepts.
+
+Purpose
+
+This repository serves as a working record of my development as I build practical software engineering skills through progressively more complex programming exercises and projects.
+
+It is continuously updated as I learn new technologies, apply software engineering concepts, and develop new projects.
+
 Author
 
 Tanisha Jalaf
 
-Computer Science / Information Technology Student
+Bachelor's of Science in Information Technology Student
 
 This repository is continuously updated as I build and strengthen my software engineering skills.
